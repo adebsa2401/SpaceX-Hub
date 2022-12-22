@@ -34,13 +34,8 @@
   color: #0290ff;
 }
 
-.nav-item:hover {
-  color: #005ca3;
-}
-
-.nav-item:focus {
-  text-decoration: underline;
-  color: #005ca3;
+.nav-item-active {
+  color: #000;
 }
 
 .nav-menu li:last-child {
