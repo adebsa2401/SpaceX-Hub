@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Rockets from './components/Rockets';
 import MyProfile from './components/MyProfile';
+import Missions from './redux/missions/missions';
 
 function App() {
   return (
@@ -15,6 +16,12 @@ function App() {
           path="/"
           element={(
             <Rockets />
+        )}
+        />
+        <Route
+          path="/missions"
+          element={(
+            <Missions />
         )}
         />
         <Route
