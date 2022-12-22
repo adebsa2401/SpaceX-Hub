@@ -8,9 +8,8 @@ const Missions = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchMissions());
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    if (missions.length === 0) dispatch(fetchMissions());
+  });
 
   return (
     <main>
