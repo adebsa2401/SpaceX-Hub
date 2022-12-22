@@ -4,7 +4,7 @@ import RocketItem from './RocketItem';
 import { fetchRocketApi } from '../redux/rockets/rockets';
 
 const Rockets = () => {
-  const rockets = useSelector((state) => state.rocketsReducer);
+  const rockets = useSelector((state) => state.rockets);
   const dispatch = useDispatch();
   useEffect(() => {
     if (rockets.length === 0) {
