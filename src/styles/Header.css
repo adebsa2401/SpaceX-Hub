@@ -36,6 +36,7 @@
 
 .nav-item-active {
   color: #000;
+  text-decoration: underline;
 }
 
 .nav-menu li:last-child {
