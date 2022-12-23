@@ -1,0 +1,56 @@
+table,
+th,
+td {
+  border: solid 1px #d1d1d1;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 20px 80px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: start;
+}
+
+.mission-name {
+  vertical-align: top;
+  width: 15%;
+  font-weight: bold;
+}
+
+.member-status-cell {
+  width: 15%;
+  text-align: center;
+}
+
+.member-status-cell span {
+  color: #fff;
+  background-color: #808080;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.member-status-cell span.active-badge {
+  background-color: #25b1bb;
+}
+
+.status-btn-cell {
+  width: 15%;
+  text-align: center;
+}
+
+.status-btn-cell button {
+  color: #808080;
+  background-color: #fff;
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 5px;
+}
+
+.status-btn-cell button.danger-btn {
+  color: #f00;
+}
